@@ -44,3 +44,18 @@
 | **PasswordEncoder**           | 驗證密碼是否正確（例如 BCryptPasswordEncoder）。                         |
 | **SecurityContextHolder**     | 儲存當前使用者的安全資訊（例如已通過的認證資訊）。                                   |
 | **FilterSecurityInterceptor** | 最後一關：處理 URL 權限的存取控制（通常和 `@PreAuthorize` 或 `@Secured` 有關）。   |
+
+
+```java
+// set SecurityContext manually
+SecurityContext context = SecurityContextHolder.createEmptyContext();
+Authentication authentication = new PreAuthenticatedAuthenticationToken(memberInfo.getId().getMemberId(), null, Collections.emptyList());
+context.setAuthentication(authentication);
+SecurityContextHolder.setContext(context);
+```
+
+```java
+SecurityContext context = SecurityContextHolder.getContext();
+context.setAuthentication(null);
+SecurityContextHolder.clearContext();
+```

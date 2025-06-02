@@ -16,8 +16,8 @@ Resolved Backlog Task :票號
 To mark a task as complete, use [x].
 
 - [x] Unit tests added (if relevant)
-  - [x]Affected unit tests passing
-  - [ ]Checked Spelling and Auto-formatted affected code only (IDE)
+- [x] Affected unit tests passing
+- [ ] Checked Spelling and Auto-formatted affected code only (IDE)
 
 
 ## 票上的說明

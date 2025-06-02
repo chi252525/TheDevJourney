@@ -10,7 +10,8 @@
 | 404 | Not Found             |      |
 | 500 | Internal Server Error |      |
 
-```json
+預設
+```json 
 {
   "timestamp": "2025-01-09T14:30:15",
   "status": 400,
@@ -21,10 +22,3 @@
 
 ```
 
-```json
-{
-  "status": 500,
-  "message": "Internal Server Error",
-  "details": "Could not open JPA EntityManager for transaction"
-}
-```

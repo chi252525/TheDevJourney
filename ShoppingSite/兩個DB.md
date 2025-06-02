@@ -1,7 +1,6 @@
 
 ```java
 
-package tw.com.nextbank.ap12.infra.sys.spring.config;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -32,10 +31,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class NcbizModuleDbJpaRepositoryConfiguration {
 
   public static final String IMB_ENTITY_PACKAGE =
-      "tw.com.nextbank.ap12.infra.dataprovider.entity.ncbizmoduledb";
+      "tw.com..ap12.infra.dataprovider.entity.ncbizmoduledb";
 
   public static final String IMB_DAO_PACKAGE =
-      "tw.com.nextbank.ap12.infra.dataprovider.dao.ncbizmoduledb";
+      "tw.com..ap12.infra.dataprovider.dao.ncbizmoduledb";
 
   @ConfigurationProperties(prefix = "imb.spring.datasource")
   @Bean(name = "imbDataSource", destroyMethod = "")

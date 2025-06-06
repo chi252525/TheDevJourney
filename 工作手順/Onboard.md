@@ -15,7 +15,8 @@
 
 - mac
     - [ ]  快捷鍵
-    - [ ]  系統偏好設定>箭頭調大
+    - [ ]  系統設定>箭頭調大
+    - [ ]  卷動方向 自然 ->off
     - [ ]  termal 字體 :終端機」>「偏好設定⋯」，按一下「描述檔」，選擇一個描述檔，然後按一下「文字」。
 - App
     - [ ]  chrome
@@ -33,9 +34,17 @@
 - [ ]  IJ 2020.2
 - [ ]  JDK (注意JDK 與IDE相容性)
 - [ ]  VSCode
-- [ ]  eclipse 2021 .03 (jdk 11) 
-- https://www.eclipse.org/downloads/packages/release/2021-03/r
-- https://www.eclipse.org/downloads/packages/release
+- [ ]  eclipse 2021 .03 (jdk 11) https://www.eclipse.org/downloads/packages/release/2021-03/r
+- [ ]  draw.io
+- [ ]  docker
+- [ ]  filezilla
+- [ ]  postman
+- [ ]  Red
+- [ ]  DBeaver
+- [ ]  Textmate
+- [ ]  JetBrains Toolbox
+
+- 
 
 - eclipse extension
     - [ ]  gradle IDE Pack
